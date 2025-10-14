@@ -1,0 +1,1 @@
+select year first so its possible to fetch the circuits that happened in the season and create the circuits select
