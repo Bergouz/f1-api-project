@@ -10,10 +10,12 @@
 <body>
     
     <form id="selectRace">
-        <label for="circuit" class="ml-4">Circuit Name:</label>
-        <input type="text" name="circuit" id="circuit" class="border border-black" value="Marina Bay">
-        <label for="year">Year:</label>
-        <input type="text" name="year" id="year" class="border border-black" value="2025">
+        <label for="year" class="ml-4">Year:</label>
+        <input type="text" name="year" id="year" class="border border-black" autocomplete="off">
+        <label for="circuit">Circuit Name:</label>
+        <select name="circuit" id="circuit" class="border border-black">
+            <option value="">Select a valid year</option>
+        </select>
         <input type="submit" value="Search" class="ml-4 border border-black">
     </form>
 
